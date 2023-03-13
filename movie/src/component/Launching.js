@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Launching() {
+const Launching = () => {
   return (
     <div>
-      <h1>This is launching page</h1>
+      <h1>This is launching page1</h1>
     </div>
   )
 }
+
+export default Launching
