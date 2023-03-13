@@ -1,10 +1,10 @@
 import React from "react";
-// import launch form './Launching.css'
 import '../component/Launching.css'
+// import img1 from '../assets/avatar.jpg'
 const Launching = () => {
   return (
-    
-<nav className="navbar navbar-dark bg-dark fixed-top">
+    <>
+ <nav className="navbar navbar-dark bg-dark fixed-top">
   <div className="container-fluid">
     <a className="navbar-brand" href="/">Cineplex Connect</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -19,6 +19,18 @@ const Launching = () => {
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
             <a className="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="/">Movies</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="/">Tv Shows</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="/">Trending</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="/">Pricing</a>
           </li>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -46,6 +58,9 @@ const Launching = () => {
     </div>
   </div>
 </nav>
+
+
+</>
  
   );
 };

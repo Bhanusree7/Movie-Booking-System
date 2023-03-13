@@ -1,0 +1,21 @@
+.over{
+    background-color: rgb(43, 49, 72);
+    color: white;
+
+    
+}
+.inner h4{
+    color: rgb(180, 121, 92);
+    /* margin-left: 2px; */
+}
+.Products .pro-container{
+    padding: 15px 5px;
+    text-align: center;
+    /* align-items: left; */
+    margin: 15px 0;
+    box-sizing: border-box;
+    width: 15em;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    
+}
