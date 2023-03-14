@@ -36,7 +36,7 @@ const Se = () => {
   };
 
   return (
-    <div>
+    <div className="mul">
       <h2>Multiplex Theater</h2>
       <div className="screen">Screen</div>
       <div className="seats-container">

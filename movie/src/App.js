@@ -22,8 +22,9 @@ function App() {
   {/* <Trending/> */}
   <Premium/>
   <Theatre/>
-  <Payment/>
   <Se/>
+  <Payment/>
+
   <Footer/>
  
 

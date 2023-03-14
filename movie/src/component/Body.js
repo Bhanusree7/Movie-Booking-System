@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
-import img1 from '../assets/avatar.jpg'
-// import img2 from '../assets/voucher1.jpeg'
-import picture1 from '../assets/pic1.jpeg'
-import picture2 from '../assets/pic2.jpeg'
-import picture3 from '../assets/pic3.jpeg'
-import picture4 from '../assets/pic4.jpeg'
+import img1 from '../assets/ava.jpg'
+import img2 from '../assets/coup1.jpeg'
+import picture1 from '../assets/coup2.jpg'
+import picture2 from '../assets/coup3.jpg'
+import picture3 from '../assets/coup4.jpg'
+import picture4 from '../assets/concert.jpg'
 // import img3 from '../assets/voucher2.jpeg'
 
 const Body = () => {
@@ -16,8 +16,11 @@ const Body = () => {
     <div className="carousel-item active">
       <img src={img1} className="d-block w-100" alt="..."/>
     </div>
-    <div className="carousel-item">
+    {/* <div className="carousel-item"> */}
       {/* <img src={img2} className="d-block w-100" alt="..."/> */}
+    {/* </div> */}
+    <div className="carousel-item">
+      <img src={img2} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
       <img src={picture1} className="d-block w-100" alt="..."/>
