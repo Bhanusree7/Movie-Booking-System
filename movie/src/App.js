@@ -5,6 +5,7 @@ import Body from './component/Body';
 import Mve from './component/Mve';
 // import Trending from './component/Trending';
 import Premium from './component/Premium';
+import Booking from './component/Booking';
 import Footer from './component/footer';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   <Mve/>
   {/* <Trending/> */}
   <Premium/>
+  <Booking/>
   <Footer/>
  </>
   );
