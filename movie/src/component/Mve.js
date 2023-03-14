@@ -42,7 +42,7 @@ const Mve = () => {
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Drama/Family</p>
                         </div>
-                        <button type="button" className="btn btn-outline-warning">Book Now</button>
+                        <button type="button" className="btn btn-outline-warning"><Link to='./Theatre.js'>Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}
                 </div>
