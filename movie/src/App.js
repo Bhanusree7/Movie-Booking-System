@@ -7,7 +7,9 @@ import Mve from './component/Mve';
 import Premium from './component/Premium';
 // import Booking from './component/Booking';
 import Footer from './component/footer';
-import Seat from './component/Seat';
+import Theatre from './component/Theatre';
+// import Payment from './component/Payment';
+
 function App() {
   return (
   <>
@@ -18,7 +20,9 @@ function App() {
   <Premium/>
   <Footer/>
   {/* <Booking/> */}
-  <Seat/>
+  {/* <Seat/> */}
+  <Theatre/>
+  {/* <Payment/> */}
  </>
   );
 }
