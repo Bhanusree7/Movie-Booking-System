@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../component/Launching.css'
 // import img1 from '../assets/avatar.jpg'
 const Launching = () => {
@@ -18,10 +19,10 @@ const Launching = () => {
       <div className="offcanvas-body">
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/">Home</a>
+            <a className="nav-link active" aria-current="page" href="/Payment">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/">Movies</a>
+            <a className="nav-link active" aria-current="page" href="/Mve">Movies</a>
           </li>
           <li className="nav-item">
             <a className="nav-link active" aria-current="page" href="/">Tv Shows</a>

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../component/Mve.css'
+import { Route } from 'react-router-dom';
 import { Link } from "react-router-dom"
 import img1 from '../assets/avatar.jpg'
 import img2 from '../assets/bholo.jpeg'
@@ -9,6 +10,7 @@ import img5 from '../assets/quant.jpeg'
 import img6 from '../assets/65.jpeg'
 import img7 from '../assets/child.jpeg'
 import img8 from '../assets/agent.jpeg'
+
 const Mve = () => {
   return (
     <>
@@ -42,7 +44,7 @@ const Mve = () => {
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Drama/Family</p>
                         </div>
-                        <button type="button" className="btn btn-outline-warning"><Link to='./Theatre.js'>Book Now</Link></button>
+                        <button type="button" className="btn btn-outline-warning">Book Now</button>
                     </div>
                     {/* <a href="/">🛒</a> */}
                 </div>

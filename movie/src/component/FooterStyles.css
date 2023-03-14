@@ -32,6 +32,8 @@
 }
 .main-contact li{
 	margin-bottom: 15px;
+	list-style: none;
+	
 }
 .main-contact li a{
 	display: block;
@@ -39,6 +41,7 @@
 	font-size: var(--normal-font);
 	font-weight: 600;
 	transition: all .35s ease;
+	text-decoration: none;
 }
 .main-contact li a:hover{
 	transform: translateX(5px);

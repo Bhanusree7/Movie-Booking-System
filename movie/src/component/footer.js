@@ -1,5 +1,6 @@
 import React from 'react'
 import './FooterStyles.css'
+// import {AiFillFacebook} from 'react-icons/fa';
 const footer = () => {
   return (
     <div>
@@ -7,12 +8,12 @@ const footer = () => {
 
       <section className="contact">
         <div className="main-contact">
-            <h3>E-Commerce</h3>
-            <h5>Let's Connect With Us</h5>
+            <h3>One stop Booking</h3>
+            <h5>Connect With Us</h5>
             <div className="icons">
-                <a href="/"><i className="fa fas-facebook"></i></a>
-                <a href="/"><i className="bx bxl-instagram-alt"></i></a>
-                <a href="/"><i className="bx bxl-twitter"></i></a>
+                {/* <a href="/"><AiFillFacebook/>Facebook</a> */}
+                <a href="/">Instagram<i className="bx bxl-instagram-alt"></i></a>
+                <a href="/">Twitter<i className="bx bxl-twitter"></i></a>
             </div>
         </div>
 
@@ -25,23 +26,23 @@ const footer = () => {
         </div>
 
         <div className="main-contact">
-            <h3>Our Services</h3>
-            <li><a href="/">Pricing</a></li>
-            <li><a href="/">Free Shipping</a></li>
-            <li><a href="/">Gift Cards</a></li>
+            <h3>Our Deals</h3>
+            <li><a href="/">Vouchers</a></li>
+            <li><a href="/">Offers</a></li>
+            <li><a href="/">Premium Membership</a></li>
         </div>
 
         <div className="main-contact">
-            <h3>Shopping</h3>
-            <li><a href="/">Clothing Store</a></li>
-            <li><a href="/">Furniture Store</a></li>
-            <li><a href="/">Groceries</a></li>
-            <li><a href="/">Sales</a></li>
+            <h3>Others</h3>
+            <li><a href="/">24 Hr Service</a></li>
+            <li><a href="/">Automated Mail Generation</a></li>
+            <li><a href="/">User-Friendly</a></li>
+            <li><a href="/">Minimalistic</a></li>
         </div>
     </section>
     <div className="last-text">
         <p>
-            Copyright © 2022 All rights reserved | This belongs to E-Commerce
+            Copyright © 2022 All rights reserved | This belongs to Cineplex Connect
             Website
         </p>
     </div>
