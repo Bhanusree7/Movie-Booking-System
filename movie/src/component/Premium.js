@@ -1,5 +1,6 @@
 import React from 'react'
 import '../component/Premium.css'
+import { Link } from 'react-router-dom'
 import img9 from '../assets/pathaan.jpg'
 import img10 from '../assets/topgun.jpg'
 import img11 from '../assets/ps1.jpg'
@@ -24,11 +25,12 @@ const Premium = () => {
                             <p>Hindi/Tamil/Telugu</p>
                             <p>Drama/Family</p>
                         </div>
-                        <button type="button" className="btn btn-outline-warning">Book Now</button>
+                        <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}
                 </div>
             </div>
+            
     </div>
     </section>
    

@@ -39,13 +39,44 @@
 // reportWebVitals();
 import React from "react";
 import ReactDOM from "react-dom/client";
+// import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
+import TheatrePage from "./pages/Theatre.page";
+import MvePage from "./pages/Mve.page";
+import PaymentPage from "./pages/Payment.page";
 import reportWebVitals from "./reportWebVitals";
+
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "Theatre",
+    element: <TheatrePage />,
+  },
+  {
+    path: "Mvepage",
+    element: <MvePage />,
+  },
+  {
+    path: "Paymentpage",
+    element: <PaymentPage />,
+  },
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+  <RouterProvider router={router}></RouterProvider>
   </React.StrictMode>
 );
 

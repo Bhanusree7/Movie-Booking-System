@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Theatre.css'
 
 const TheatreSelection = () => {
@@ -58,7 +59,7 @@ const TheatreSelection = () => {
           <p>
             You have selected {selectedTheatre} theatre, {selectedDate} date and {selectedTime} show time.
           </p>
-          <button onClick={() => alert('Booking seats...')}>Book Seats</button>
+          <button onClick={() => alert('Booking seats...')}><Link to="/MvePage">Book Seats</Link></button>
         </div>
       )}
     </div>

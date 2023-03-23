@@ -8,10 +8,9 @@ import Mve from './component/Mve';
 import Premium from './component/Premium';
 // import Booking from './component/Booking';
 import Footer from './component/footer';
-import Payment from './component/Payment';
-import Theatre from './component/Theatre'
-import { Link } from "react-router-dom";
-import Se from './component/Se';
+// import Payment from './component/Payment';
+// import Theatre from './component/Theatre'
+// import Se from './component/Se';
 function App() {
   return (
   <>
@@ -19,14 +18,12 @@ function App() {
   <Launching/>
   <Body/>
   <Mve/>
-  {/* <Trending/> */}
   <Premium/>
-  <Theatre/>
-  <Se/>
-  <Payment/>
-
+  {/* <Theatre/> */}
+  {/* <Se/> */}
+  {/* <Payment/> */}
   <Footer/>
- 
+
 
   {/* <Booking/> */}
 
@@ -38,6 +35,14 @@ function App() {
           <Route path="/Payment" element={<Payment />} />
         </Routes>
       </Router>
+    </div> */}
+    {/* <div className="app">
+      <Routes>
+        <Route path="/" element={<Launching /> } />   
+        <Route path="/Payment" element={<Payment /> } />   
+        <Route path="/Theatre" element={<Theatre />} />
+        <Route path="/Se" element={<Se/>} />
+      </Routes>
     </div> */}
 
  </>

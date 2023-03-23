@@ -27,6 +27,7 @@
 // />
 import React from 'react'
 import '../component/Payment.css'
+import {Link} from 'react-router-dom'
 const Payment = () => {
   return (
     <div className='pay'>

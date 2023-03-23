@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import '../component/Se.css';
+import { Link } from "react-router-dom";
 const rows = [
   "A",
   "B",
@@ -55,7 +56,7 @@ const Se = () => {
         {bookedSeats.length === 1 ? "seat" : "seats"} :{" "}
         {bookedSeats.join(", ")}
       </p>
-      <button disabled={bookedSeats.length === 0}>Confirm Booking</button>
+      <button ><Link to="/PaymentPage">Confirm Booking</Link></button>
     </div>
   );
 };

@@ -13,6 +13,7 @@
     -moz-appearance: none;
     appearance: none;
     border-radius: 0.375rem;
+  
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .pay h3{
@@ -29,6 +30,10 @@
 }
 .pay{
     background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    position: relative;
+   top: 6rem;
 }
 .form-check{
     position: relative;

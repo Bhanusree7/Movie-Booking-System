@@ -15,7 +15,7 @@
 	font-weight: 600;
 	color: rgb(170, 169, 167);
 }
-.icons{
+.icons {
 	display: flex;
 	margin-top: 2rem;
     color: aliceblue;
@@ -120,4 +120,15 @@ font-size: var(--h3-font);
  }
  .text h4{
     text-align: center;
+ }
+ .icons a{
+	color: rgb(237, 236, 236);
+	text-decoration: dotted;
+	background-color: #555;
+	padding: 2px;
+	gap: 2rem;
+	position: relative;
+	margin-right: 2rem;
+	text-align: center;
+	border-radius: 2px;
  }

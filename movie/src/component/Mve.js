@@ -1,7 +1,6 @@
 import React from 'react'
 import '../component/Mve.css'
-import { Route } from 'react-router-dom';
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom'
 import img1 from '../assets/avatar.jpg'
 import img2 from '../assets/bholo.jpeg'
 import img3 from '../assets/Demon.jpeg'
@@ -10,6 +9,7 @@ import img5 from '../assets/quant.jpeg'
 import img6 from '../assets/65.jpeg'
 import img7 from '../assets/child.jpeg'
 import img8 from '../assets/agent.jpeg'
+import LinkButton from '../component/Theatre'
 
 const Mve = () => {
   return (
@@ -44,7 +44,11 @@ const Mve = () => {
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Drama/Family</p>
                         </div>
-                        <button type="button" className="btn btn-outline-warning">Book Now</button>
+                        {/* <link to="/Theater"></link> */}
+                        {/* */}
+                        
+                        <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
+                        {/* <LinkButton to='/component/Theatre'>Book Now</LinkButton> */}
                     </div>
                     {/* <a href="/">🛒</a> */}
                 </div>
@@ -60,7 +64,7 @@ const Mve = () => {
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Action/Drama</p>
                         </div>
-                        <button type="button" className="btn btn-outline-warning">Book Now</button>
+                        <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}
                 </div>
@@ -76,7 +80,7 @@ const Mve = () => {
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Action Thriller</p>
                         </div>
-                        <button type="button" className="btn btn-outline-warning">Book Now</button>
+                        <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}
                 </div>
@@ -92,7 +96,7 @@ const Mve = () => {
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Sci-fi</p>
                         </div>
-                        <button type="button" className="btn btn-outline-warning">Book Now</button>
+                        <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}
                 </div>
@@ -108,7 +112,7 @@ const Mve = () => {
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Thriller</p>
                         </div>
-                        <button type="button" className="btn btn-outline-warning">Book Now</button>
+                        <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}
                 </div>
@@ -124,7 +128,7 @@ const Mve = () => {
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Thriller/Suspence</p>
                         </div>
-                        <button type="button" className="btn btn-outline-warning">Book Now</button>
+                        <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}
                 </div>
