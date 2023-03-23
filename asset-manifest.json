@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Movie-booking-system/static/css/main.7b1c9c86.css",
+    "main.js": "/Movie-booking-system/static/js/main.c0b8264c.js",
+    "static/js/787.e253fc0a.chunk.js": "/Movie-booking-system/static/js/787.e253fc0a.chunk.js",
+    "static/media/ava.jpg": "/Movie-booking-system/static/media/ava.fe1ee5b7fc89068f1c07.jpg",
+    "static/media/avatar.jpg": "/Movie-booking-system/static/media/avatar.810e78765afd4d532571.jpg",
+    "static/media/topgun.jpg": "/Movie-booking-system/static/media/topgun.86382fdb4b51aa5c06b3.jpg",
+    "static/media/operation.jpeg": "/Movie-booking-system/static/media/operation.88ef999c3f733acbbb1a.jpeg",
+    "static/media/65.jpeg": "/Movie-booking-system/static/media/65.a7d2d0167a43bc1767b3.jpeg",
+    "static/media/child.jpeg": "/Movie-booking-system/static/media/child.49e8069938f414d30964.jpeg",
+    "static/media/Demon.jpeg": "/Movie-booking-system/static/media/Demon.7bdcfc6e53e66375b01d.jpeg",
+    "static/media/ps1.jpg": "/Movie-booking-system/static/media/ps1.1ee7524ee4e6f5ed9c28.jpg",
+    "static/media/coup4.jpg": "/Movie-booking-system/static/media/coup4.e6acedf6448d7e887e8e.jpg",
+    "static/media/pathaan.jpg": "/Movie-booking-system/static/media/pathaan.68598d20f273d707fe95.jpg",
+    "static/media/coup2.jpg": "/Movie-booking-system/static/media/coup2.a1c8b57cc681f23a6dfb.jpg",
+    "static/media/concert.jpg": "/Movie-booking-system/static/media/concert.71df19299d3db70df0b5.jpg",
+    "static/media/quant.jpeg": "/Movie-booking-system/static/media/quant.b6e687ccade2bd64cd0a.jpeg",
+    "static/media/coup1.jpeg": "/Movie-booking-system/static/media/coup1.05e622e06a34b15d8ecc.jpeg",
+    "static/media/coup3.jpg": "/Movie-booking-system/static/media/coup3.a5ef47fa6ab6e3f8b459.jpg",
+    "static/media/bholo.jpeg": "/Movie-booking-system/static/media/bholo.1e3e4832f73b6d780b59.jpeg",
+    "static/media/agent.jpeg": "/Movie-booking-system/static/media/agent.3516b0e1081583af75b2.jpeg",
+    "static/media/logo.svg": "/Movie-booking-system/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Movie-booking-system/index.html",
+    "main.7b1c9c86.css.map": "/Movie-booking-system/static/css/main.7b1c9c86.css.map",
+    "main.c0b8264c.js.map": "/Movie-booking-system/static/js/main.c0b8264c.js.map",
+    "787.e253fc0a.chunk.js.map": "/Movie-booking-system/static/js/787.e253fc0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b1c9c86.css",
+    "static/js/main.c0b8264c.js"
+  ]
+}
