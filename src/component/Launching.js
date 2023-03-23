@@ -38,7 +38,7 @@ const Launching = () => {
              Cities
             </a>
             <ul className="dropdown-menu dropdown-menu-dark">
-              <li><a className="dropdown-item" href="/">Chennai</a></li>
+              {/* <li><a className="dropdown-item" href="/">Chennai</a></li> */}
               <li><a className="dropdown-item" href="/">Banglore</a></li>
               <li><a className="dropdown-item" href="/">Indore</a></li>
               <li><a className="dropdown-item" href="/">Pune</a></li>
