@@ -42,7 +42,7 @@ const Launching = () => {
               <li><a className="dropdown-item" href="/">Banglore</a></li>
               <li><a className="dropdown-item" href="/">Indore</a></li>
               <li><a className="dropdown-item" href="/">Pune</a></li>
-              <li><a className="dropdown-item" href="/">Hydrebad</a></li>
+              <li><a className="dropdown-item" href="/">Hyderabad</a></li>
               <li><a className="dropdown-item" href="/">Chandigarh</a></li>
               <li/>
                 {/* <hr className="dropdown-divider"/>
