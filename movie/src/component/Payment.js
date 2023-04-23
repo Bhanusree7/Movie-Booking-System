@@ -28,6 +28,7 @@
 import React from 'react'
 import '../component/Payment.css'
 import {Link} from 'react-router-dom'
+
 const Payment = () => {
   return (
     <div className='pay'>
@@ -61,7 +62,7 @@ const Payment = () => {
     <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
     <label className="form-check-label" for="exampleCheck1">Apply Offers</label>
   </div>
-  <button type="submit" className="btn btn-primary mb-3">Submit</button>
+  <button type="submit" className="btn btn-primary mb-3"><Link to="/PaymentConfirmationPage">Submit</Link></button>
 </form>
     </div>
   )

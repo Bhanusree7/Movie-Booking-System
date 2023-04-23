@@ -46,7 +46,7 @@ import TheatrePage from "./pages/Theatre.page";
 import MvePage from "./pages/Mve.page";
 import PaymentPage from "./pages/Payment.page";
 import reportWebVitals from "./reportWebVitals";
-
+import PaymentConfirmationPage from "./pages/PaymentConfirmation.page"
 
 import {
   createBrowserRouter,
@@ -70,6 +70,11 @@ const router = createBrowserRouter([
     path: "Paymentpage",
     element: <PaymentPage />,
   },
+  {
+    path: "PaymentConfirmationPage",
+    element: <PaymentConfirmationPage/>
+  },
+ 
 ]);
 
 
