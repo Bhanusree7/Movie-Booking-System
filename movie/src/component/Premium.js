@@ -25,7 +25,7 @@ const Premium = () => {
                             <p>Hindi/Tamil/Telugu</p>
                             <p>Drama/Family</p>
                         </div>
-                        <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
+                        <button type="button" className="btn btn-outline-warning"><Link to="/PremiumPage">Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}
                 </div>

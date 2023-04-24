@@ -1,0 +1,27 @@
+/* .seat {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+  }
+  
+  .unavailable {
+    background-color: red;
+  } */
+
+  .seat {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+  }
+  
+  .unavailable {
+    background-color: red !important;
+  }

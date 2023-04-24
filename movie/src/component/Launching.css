@@ -3,3 +3,14 @@
     background-color: #0a0a0a;
     border-color: black;
   }
+  form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100vh;
+    /* background-color: #5a7184; */
+}
+.btn btn-success{
+width: 5rem;
+}

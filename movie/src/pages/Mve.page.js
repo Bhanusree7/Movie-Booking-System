@@ -44,12 +44,15 @@ import Launching from '../component/Launching'
 import Se from '../component/Se'
 // import SeatMap from '../component/SeatMap'
 import MovieTicketBookingPage from '../component/MovieTicketBookingPage'
+// import Test from '../component/Test'
+
 // import MovieBooking from '../component/moviebooking'
 function MvePage() {
   return (
     <div>
       <Launching></Launching>
       <Se></Se>
+      {/* <Test></Test> */}
       {/* <SeatMap></SeatMap> */}
       <MovieTicketBookingPage></MovieTicketBookingPage>
     </div>

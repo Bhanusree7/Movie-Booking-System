@@ -64,6 +64,7 @@
 // export default Se;
 
 import React, { useState } from 'react';
+
 import './Se.css';
 import { Link } from 'react-router-dom'
 function Se(props) {
@@ -82,6 +83,7 @@ function Se(props) {
       onClick={toggleSelected}
     >
       {props.seatNumber}
+      
       
     </div>
     

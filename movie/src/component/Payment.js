@@ -62,7 +62,7 @@ const Payment = () => {
     <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
     <label className="form-check-label" for="exampleCheck1">Apply Offers</label>
   </div>
-  <button type="submit" className="btn btn-primary mb-3"><Link to="/PaymentConfirmationPage">Submit</Link></button>
+  <button type="submit" className="btn btn-primary "><Link to="/PaymentConfirmationPage">Submit</Link></button>
 </form>
     </div>
   )

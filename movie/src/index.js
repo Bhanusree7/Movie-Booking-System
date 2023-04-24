@@ -47,11 +47,16 @@ import MvePage from "./pages/Mve.page";
 import PaymentPage from "./pages/Payment.page";
 import reportWebVitals from "./reportWebVitals";
 import PaymentConfirmationPage from "./pages/PaymentConfirmation.page"
+import LoginPage from "./pages/login.page"
+import SignupPage from "./pages/signup.page"
+import PremiumPage from "./pages/Premium.page";
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
+
 
 const router = createBrowserRouter([
   {
@@ -73,6 +78,18 @@ const router = createBrowserRouter([
   {
     path: "PaymentConfirmationPage",
     element: <PaymentConfirmationPage/>
+  },
+  {
+    path: "SignupPage",
+    element: <SignupPage/>
+  },
+  {
+    path: "LoginPage",
+    element: <LoginPage/>
+  },
+  {
+    path: "PremiumPage",
+    element: <PremiumPage/>
   },
  
 ]);

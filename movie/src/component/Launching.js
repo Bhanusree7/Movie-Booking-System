@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import '../component/Launching.css'
 // import img1 from '../assets/avatar.jpg'
+import Chat from '../component/chat'
 const Launching = () => {
   return (
     <>
@@ -53,11 +54,23 @@ const Launching = () => {
         </ul>
         <form className="d-flex mt-3" role="search">
           <input className="form-control me-2 mx-3" type="search" placeholder="Search" aria-label="Search"/>
-          <button className="btn btn-success" type="submit">Search</button>
+
         </form>
+        <div>
+        <button className="btn btn-success d-flex justify-content- flex-start mt-3 ml-1" type="submit">Search</button>
+        </div>
+        <div className="d-flex justify-content- flex-start mt-3">
+          <Link to="/LoginPage" className="btn btn-primary mx-1">Log In</Link>
+          <Link to="/SignupPage" className="btn btn-success mx-1">Sign Up</Link>
+        </div>
+        {/* <div className="d-flex justify-content-end mt-3">
+
+        </div> */}
+
       </div>
     </div>
   </div>
+  <Chat/>
 </nav>
 
 

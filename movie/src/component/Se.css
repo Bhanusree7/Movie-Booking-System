@@ -116,6 +116,7 @@
   border: aliceblue;
   margin-left: 10px;
   position: relative;
+  left: 5.5rem;
   /* margin-right: 40px; */
 }
 
@@ -171,7 +172,7 @@ h1 {
   cursor: not-allowed;
 } */
 
-.selected {
+/* .selected {
   background-color: #4caf50;
   color: #fff;
 }
@@ -193,4 +194,19 @@ h2 {
 .seat-number {
   margin-top: 10px;
   font-size: 16px;
+} */
+.seat-map{
+  position: relative;
+  align-items: center;
+  /* left: 1.5rem; */
+  margin-left: 3rem;
+}
+.movie-ticket-booking-page h1{
+  background-color: #aaa;
+}
+.movie-ticket-booking-page button{
+  position: relative;
+  align-items: center;
+  background-color: #3a3;
+  margin-left: 45%;
 }

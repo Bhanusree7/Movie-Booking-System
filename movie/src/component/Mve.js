@@ -10,6 +10,7 @@ import img6 from '../assets/65.jpeg'
 import img7 from '../assets/child.jpeg'
 import img8 from '../assets/agent.jpeg'
 import LinkButton from '../component/Theatre'
+import Booking from './Booking'
 
 const Mve = () => {
   return (
@@ -59,11 +60,12 @@ const Mve = () => {
                     <img src={img3} alt="product1"/>
                     <div className="des">
                         {/* <span>brand</span> */}
-                        <h4>Deymon Slayer</h4>
+                        <h4>Demon Slayer</h4>
                         <div className="star">
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Action/Drama</p>
                         </div>
+                        <Booking></Booking>
                         <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}
