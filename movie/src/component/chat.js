@@ -3,9 +3,10 @@ import React, { Component } from 'react'
 export class Chat extends Component {
       componentDidMount(){
     
+    
     (function(d, m){
         var kommunicateSettings = 
-            {"appId":"c7716f669c72fff4127d1f0e05f55fdb","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            {"appId":"3bd13df2a90c6d60e2fe0c7d9200dfdba","popupWidget":true,"automaticChatOpenOnNavigation":true};
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
         s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
         var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
@@ -24,3 +25,6 @@ export class Chat extends Component {
 }
 
 export default Chat
+
+
+
