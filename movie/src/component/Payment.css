@@ -49,6 +49,12 @@ button.btn.btn-primary{
     margin-top: 0rem;
     /* margin-bottom: 0rem; */
 }
+.amt{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 30%;
+}
 /* .btn {
     display: inline-block;
     padding: 13px 25px;

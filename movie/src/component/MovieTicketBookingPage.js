@@ -10,8 +10,18 @@ function MovieTicketBookingPage() {
   return (
     <div className="movie-ticket-booking-page">
       <h1 style={{ marginTop: '4rem' }}><center>Screen</center></h1>
+      <ul>
+      <li>Red:Unavailable</li>
+      <li>Green:Selected</li>
+      <li>Gray:Available</li>
+      </ul>
       {/* <FontAwesomeIcon icon={faTv} size="2x" color="#333" /> */}
       <SeatMap numRows={12} numCols={5} />
+    
+      
+     
+
+      {/* <p>You've selected:</p> */}
       {/* <SeatMap  /> */}
       {/* <p>
          You have selected {bookedSeats.length}{" "}

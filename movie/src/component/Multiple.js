@@ -364,6 +364,11 @@ const Multiple = () => {
       ))}
       <div className='pu'>
         <p>You have booked an entire row of : {selectedSeats.join(", ")}</p>
+        <ul>
+  
+      <li>Green: Selected</li>
+      <li>Gray: Available</li>
+        </ul>
        <button ><Link to="/PaymentPage">Confirm Booking</Link></button></div>
     </div>
   );

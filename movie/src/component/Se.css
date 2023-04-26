@@ -119,6 +119,10 @@
   left: 5.5rem;
   /* margin-right: 40px; */
 }
+/* .blocked {
+  background-color: red;
+  cursor: not-allowed;
+} */
 
 /* .App {
   max-width: 800px;
@@ -203,6 +207,12 @@ h2 {
 }
 .movie-ticket-booking-page h1{
   background-color: #aaa;
+}
+.movie-ticket-booking-page ul li{
+  position: relative;
+  top: 10px;
+  font-weight: bold;
+  /* left: 30px; */
 }
 .movie-ticket-booking-page button{
   position: relative;

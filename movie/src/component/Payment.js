@@ -28,8 +28,19 @@
 import React from 'react'
 import '../component/Payment.css'
 import {Link} from 'react-router-dom'
+import axios from 'axios'
+import {useNavigate} from 'react-router-dom';
+// class Payment extends React.Component{
+//   state={
+//     contacts:[]
+//   }
 
+//   componentDidMount(){
+//     const url='http://localhost/'
+//   }
+// }
 const Payment = () => {
+//  render(){ 
   return (
     <div className='pay'>
       <h3>Payment Page</h3>
@@ -62,6 +73,11 @@ const Payment = () => {
     <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
     <label className="form-check-label" for="exampleCheck1">Apply Offers</label>
   </div>
+  <div className="mb-3">
+    <p className='amt'>Price(per ticket) = Rs. 200</p>
+    <p className='amt'>Premium Price = Rs. 1600</p>
+  </div> 
+
   <button type="submit" className="btn btn-primary "><Link to="/PaymentConfirmationPage">Submit</Link></button>
 </form>
     </div>

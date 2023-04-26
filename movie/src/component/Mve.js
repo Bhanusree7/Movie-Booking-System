@@ -47,7 +47,7 @@ const Mve = () => {
                         </div>
                         {/* <link to="/Theater"></link> */}
                         {/* */}
-                        
+                        <Booking></Booking>
                         <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
                         {/* <LinkButton to='/component/Theatre'>Book Now</LinkButton> */}
                     </div>
@@ -82,6 +82,7 @@ const Mve = () => {
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Action Thriller</p>
                         </div>
+                        <Booking></Booking>
                         <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}
@@ -98,6 +99,7 @@ const Mve = () => {
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Sci-fi</p>
                         </div>
+                        <Booking></Booking>
                         <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}
@@ -114,6 +116,7 @@ const Mve = () => {
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Thriller</p>
                         </div>
+                        <Booking></Booking>
                         <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}
@@ -130,6 +133,7 @@ const Mve = () => {
                             <p>⭐⭐⭐⭐⭐</p>
                             <p>Thriller/Suspence</p>
                         </div>
+                        <Booking></Booking>
                         <button type="button" className="btn btn-outline-warning"><Link to="/Theatre">Book Now</Link></button>
                     </div>
                     {/* <a href="/">🛒</a> */}

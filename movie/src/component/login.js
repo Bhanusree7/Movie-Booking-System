@@ -40,6 +40,100 @@ const Login = () => {
 
 export default Login;
 
+
+// import React, { useState } from 'react';
+// import axios from 'axios';
+
+// function Login() {
+//   const [username, setUsername] = useState('');
+//   const [password, setPassword] = useState('');
+
+//   const handleUsernameChange = (event) => {
+//     setUsername(event.target.value);
+//   };
+
+//   const handlePasswordChange = (event) => {
+//     setPassword(event.target.value);
+//   };
+
+//   const handleFormSubmit = (event) => {
+//     event.preventDefault();
+
+//     axios.post('/api/login', {
+//       username: username,
+//       password: password,
+//     })
+//     .then((response) => {
+//       console.log(response.data);
+//       // redirect user to dashboard or home page
+//     })
+//     .catch((error) => {
+//       console.log(error);
+//       // show error message to user
+//     });
+//   };
+
+//   return (
+//     <form onSubmit={handleFormSubmit}>
+//       <label>
+//         Username:
+//         <input type="text" value={username} onChange={handleUsernameChange} />
+//       </label>
+//       <br />
+//       <label>
+//         Password:
+//         <input type="password" value={password} onChange={handlePasswordChange} />
+//       </label>
+//       <br />
+//       <button type="submit">Login</button>
+//     </form>
+//   );
+// }
+
+// export default Login;
+
+
+
+
+
+
+
+
+
+// import React, { useState } from 'react';
+// import axios from 'axios';
+
+// const Login = () => {
+//   const [username, setUsername] = useState('');
+//   const [password, setPassword] = useState('');
+
+//   const handleSubmit = async (event) => {
+//     event.preventDefault();
+//     try {
+//       const response = await axios.post('http://localhost:3000/LoginPage', { username, password });
+//       console.log(response.data);
+//     } catch (error) {
+//       console.log(error.response.data);
+//     }
+//   };
+
+//   return (
+//     <form onSubmit={handleSubmit}>
+//       <input type="text" placeholder="Username" value={username} onChange={(event) => setUsername(event.target.value)} />
+//       <input type="password" placeholder="Password" value={password} onChange={(event) => setPassword(event.target.value)} />
+//       <button type="submit">Login</button>
+//     </form>
+//   );
+// };
+
+// export default Login;
+
+
+
+
+
+
+
 // import React, { useState } from 'react';
 // import './login.css';
 // import Launching from './Launching';
